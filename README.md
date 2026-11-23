@@ -56,5 +56,5 @@ index.html                 app shell
 css/styles.css             theme
 js/app.js                  quiz, exam, flashcard, and gamification engine
 data/domains.js            domain catalog and exam weights
-data/d1-*.js ... d8-*.js    questions and flashcards, one file per domain
+data/d1-*.js ... d8-*.js   questions and flashcards, one file per domain
 ```
