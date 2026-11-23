@@ -27,13 +27,14 @@ python3 -m http.server 8000
 | Domain | Questions | Flashcards |
 | --- | --- | --- |
 | D1 Security and Risk Management | 118 | 81 |
-| D2 Asset Security | coming | coming |
-| D3 Security Architecture and Engineering | coming | coming |
-| D4 Communication and Network Security | coming | coming |
-| D5 Identity and Access Management | coming | coming |
-| D6 Security Assessment and Testing | coming | coming |
-| D7 Security Operations | coming | coming |
-| D8 Software Development Security | coming | coming |
+| D2 Asset Security | 110 | 63 |
+| D3 Security Architecture and Engineering | 112 | 71 |
+| D4 Communication and Network Security | 110 | 58 |
+| D5 Identity and Access Management | 103 | 56 |
+| D6 Security Assessment and Testing | 102 | 51 |
+| D7 Security Operations | 103 | 56 |
+| D8 Software Development Security | 102 | 60 |
+| **Total** | **860** | **496** |
 
 Questions are original practice items written against the topics in the ISC2 CISSP exam outline. They are not copied from the Official Study Guide or from real exam questions.
 
@@ -55,5 +56,5 @@ index.html                 app shell
 css/styles.css             theme
 js/app.js                  quiz, exam, flashcard, and gamification engine
 data/domains.js            domain catalog and exam weights
-data/d1-*.js               Domain 1 questions and flashcards
+data/d1-*.js ... d8-*.js    questions and flashcards, one file per domain
 ```
