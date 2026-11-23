@@ -547,6 +547,43 @@
     "A lattice-based access control model is MOST closely associated with:",
     ["Mandatory access control with defined upper and lower bounds of access", "Discretionary access control", "Role-based access control", "Rule-based firewalls"],
     "Lattices define the greatest lower bound and least upper bound of access for subject-object pairs, as in MAC systems.");
+  Q("Logical Access", 2,
+    "Which protocol is commonly used to authenticate users connecting to network devices and Wi-Fi, often as the 802.1X authentication server?",
+    ["RADIUS", "SMTP", "FTP", "NTP"],
+    "RADIUS centralizes authentication, authorization and accounting for network access.");
+  Q("Identity Lifecycle", 3,
+    "An organization discovers that contractors' accounts are not disabled when contracts end because contractors are not in the HR system. What is the BEST fix?",
+    ["Require sponsor ownership and expiration dates on all non-employee accounts, with automated disablement",
+     "Give contractors shared accounts",
+     "Never grant contractors access",
+     "Review contractor accounts every five years"],
+    "Non-employee identities need an accountable sponsor, a defined end date and periodic recertification.");
+  Q("Credential Attacks", 2,
+    "A keylogger installed on a user's computer primarily captures:",
+    ["Keystrokes such as passwords and messages", "Network packets on the LAN", "Biometric templates", "Kerberos tickets from the KDC"],
+    "Hardware or software keyloggers record typed input. MFA limits the value of captured passwords.");
+  Q("Access Control Models", 2,
+    "Which principle is violated when every employee is given read access to all file shares 'to make collaboration easier'?",
+    ["Least privilege and need to know", "Defense in depth", "Fail secure", "Non-repudiation"],
+    "Broad default access increases the impact of compromised accounts and insider misuse.");
+  Q("Federation and SSO", 3,
+    "In a SAML exchange, why must the service provider validate the assertion's signature, audience and validity period?",
+    ["To prevent forged, replayed or misdirected assertions from granting access",
+     "To compress the assertion",
+     "To convert XML to JSON",
+     "To speed up page loading"],
+    "Assertion validation ensures it came from the trusted IdP, is intended for this SP and is still current.");
+  Q("Authentication Factors", 2,
+    "A certificate on a smart card combined with a PIN provides which type of authentication?",
+    ["Two-factor authentication (something you have plus something you know)", "Single-factor authentication", "Three-factor authentication", "Biometric authentication"],
+    "The card is possession; the PIN is knowledge. U.S. government PIV and CAC cards work this way.");
+  Q("Privileged Access Management", 2,
+    "Which practice reduces the risk of the same local administrator password being used on every workstation?",
+    ["Unique, automatically rotated local admin passwords (for example, Windows LAPS)",
+     "Setting all local admin passwords to the same strong value",
+     "Disabling all logging",
+     "Emailing the password to the help desk"],
+    "Shared local admin passwords enable lateral movement after one machine is compromised. LAPS-style solutions randomize and rotate them.");
 
   window.CISSP = window.CISSP || { questions: {}, flashcards: {} };
   CISSP.questions[5] = qs;
